@@ -1,12 +1,15 @@
 import { ExternalLink  ,ArrowRight } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
+import volavolaImg from "../assets/volavola.png";
+import dataAnalyticsImg from "../assets/dataanalytics.png";
+import skincareImg from "../assets/skincare.png";
 
 const projects =[
     {
        id:1,
        title:"VolaVola_Pizza_Restaurant",
        describtion:"VolaVola is a modern food delivery web application designed to make ordering pizza fast, responsive, and delightful.",
-       image:"/src/assets/volavola.png",
+       image: volavolaImg,
        tags:["React","Tailwind Css"],
        demoUrl:"https://volavola.netlify.app/",
        githubUrl:"https://github.com/FatmaSalem-dev/VolaVola_Pizza_Restaurant"
@@ -15,7 +18,7 @@ const projects =[
        id:2,
        title:"DataAnalytics_Landing_Page",
        describtion:"high-performance landing page and dashboard application designed for modern SaaS platforms to monitor data analytics and manage flexible financing models. ",
-       image:"/src/assets/dataanalytics.png",
+       image: dataAnalyticsImg,
        tags:["React","Tailwind Css"],
        demoUrl:"https://prismatic-maamoul-68eeb8.netlify.app/",
        githubUrl:"https://github.com/FatmaSalem-dev/data-analytics-react-tailwind"  
@@ -24,7 +27,7 @@ const projects =[
        id:3,
        title:"SkinCare_Ecommerce",
        describtion:" a modern, high-converting e-commerce application designed for premium skincare products",
-       image:"/src/assets/skincare.png",
+       image: skincareImg,
        tags:["Html","Css","javascript"],
        demoUrl:"https://sckincarejunkies.netlify.app/",
        githubUrl:"https://github.com/FatmaSalem-dev/skincare_store_website"
